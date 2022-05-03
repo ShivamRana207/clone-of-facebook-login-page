@@ -1,5 +1,28 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.0.24"
-  }
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "vite": "^2.9.7"
+  },
+  "name": "clone-of-facebook-login-page",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivamRana207/clone-of-facebook-login-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivamRana207/clone-of-facebook-login-page/issues"
+  },
+  "homepage": "https://github.com/ShivamRana207/clone-of-facebook-login-page#readme",
+  "description": ""
 }
