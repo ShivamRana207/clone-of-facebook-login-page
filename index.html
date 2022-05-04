@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png" />
     <link href="main.css" rel="stylesheet">
     <title>Facebook - log in or sign up</title>
 </head>
@@ -15,13 +16,14 @@
             <img class="w-60" src="logofb.svg" alt="">
             <p class="text-2xl mx-6">Facebook helps you to connect and share with the people in your life</p>
         </div>
-        <div class="right flex flex-col bg-white p-8 rounded-md w-1/4 ">
-            <input class="px-4 h-12 my-3" type="text" placeholder="Email address or phone number">
-            <input class="px-4 h-12 my-3" type="password" placeholder="Enter password here ">
-            <button class="btn">Log In </button>
-            <span> Forgotten password </span>
-            <hr>
-            <button class="btn">Create Account</button>
+        <div class="right flex flex-col bg-white p-8 rounded-md w-1/4 relative">
+            <input class="px-4 h-12 my-3 border rounded-lg border-gray-100 outline-blue-600" type="text" placeholder="Email address or phone number">
+            <input class="px-4 h-12 my-3 border rounded-lg border-gray-100 outline-blue-600" type="password" placeholder="Password">
+            <button class="bg-blue-700 hover:bg-blue-500 text-white py-3 rounded-lg font-bold">Log In </button>
+            <span class="text-blue-600 text-center text-sm my-3 cursor-pointer"> Forgotten password </span>
+            <hr class="my-3">
+            <button class="py-3 bg-green-600 hover:bg-green-800 rounded-lg font-bold text-white w-fit my-3 px-2 mx-auto">Create New Account</button>
+            <span class="absolute -bottom-12"><span class="font-bold hover:underline cursor-pointer">Create a Page</span> for celebrity, brand or business</span>
         </div>
     </div>
 </body>
